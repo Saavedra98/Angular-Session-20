@@ -27,13 +27,14 @@ export class HomeComponent implements OnInit{
 
   mostrar(){
 
-    if(this.elemento== false){
-      this.elemento=true;
-    }else{
-      this.elemento=false;
-    }
+    // if(this.elemento== false){
+    //   this.elemento=true;
+    // }else{
+    //   this.elemento=false;
+    // }
 
-    
+    this.elemento=!this.elemento;
+
   }
 
 }
